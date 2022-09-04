@@ -181,7 +181,7 @@
             "health": 2,
             "mox_cost": [
                 "Orange"
-            ],
+            ]
             "energy_cost": 3
             "description": "Flare"
         },
@@ -209,7 +209,7 @@
             "mox_cost": [
                 "Orange",
                 "Blue"
-            ],
+            ]
             "description": "Flare"
             "banned": true
         },
@@ -223,14 +223,14 @@
             "mox_cost": [
                 "Green",
                 "Orange"
-            ],
+            ]
             "description": "BishopAdams"
         },
         {
             "name": "Bishop's Hat",
             "sigils": [
                 "Gem Dependent",
-            ],
+            ]
             "attack": 0,
             "health": 2,
             "description": "BishopAdams. Will gain Morsel once added."
@@ -245,10 +245,10 @@
             "mox_cost": [
                 "Blue",
                 "Green"
-            ],
+            ]
             "description": "CryoRyo. Releases Ryo, a 3/1 with Waterbone."
         },
-{
+        {
             "name": "Ryo",
             "sigils": [
                 "Waterborne"
@@ -258,11 +258,11 @@
             "mox_cost": [
                 "Blue",
                 "Green"
-            ],
+            ]
             "banned": true
             "description": "CryoRyo."
         },
-{
+        {
             "name": "Berry Bush",
             "sigils": [
                 "Gem Dependent",
@@ -272,10 +272,12 @@
             "health": 2,
             "mox_cost": [
                 "Orange"
-            ],
+            ]
             "description": "CryoRyo."
         },
         
+
+
         {
             "name": "Withered Corpse",
             "sigils": [
