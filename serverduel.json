@@ -184,7 +184,7 @@
         },
         {
             "name": "Flare Swordsman",
-            “pixport_url”: "https://github.com/FlareJ/Inscryption-Online-Rulesets/blob/main/Inscryption%20Server%20Duel%20Images/Flare%20Swordsman.png",
+            “pixport_url”: "https://raw.githubusercontent.com/FlareJ/Inscryption-Online-Rulesets/main/Inscryption%20Server%20Duel%20Images/Flare%20Swordsman.png",
             "attack": 1,
             "health": 3,
             "sigils": [
