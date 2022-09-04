@@ -30,6 +30,7 @@
             "health": 1,
             "blood_cost": 1,
             "rare": true,
+            "banned": true,
             "description": "Note: This card was changed to rare due to the amount of advantage given by this card."
         },
         {
@@ -42,7 +43,8 @@
         {
             "name": "Rabbit",
             "attack": 0,
-            "health": 1
+            "health": 1,
+            "banned": true
         },
         {
             "name": "Warren",
@@ -78,9 +80,8 @@
                 "Bone Digger"
             ],
             "attack": 0,
-            "health": 3,
-            "bone_cost": 1,
-            "banned": true
+            "health": 4,
+            "bone_cost": 4,
         },
         {
             "name": "Blue Mage",
@@ -135,7 +136,6 @@
             "attack": 0,
             "health": 1,
             "nosac": true,
-            "banned": true
         },
         {
             "name": "Ruby Mox",
@@ -145,7 +145,6 @@
             "attack": 0,
             "health": 1,
             "nosac": true,
-            "banned": true
         },
         {
             "name": "Sapphire Mox",
@@ -155,7 +154,6 @@
             "attack": 0,
             "health": 1,
             "nosac": true,
-            "banned": true
         },
         {
             "name": "Magnus Mox",
