@@ -15,7 +15,6 @@
             "name": "Black Goat",
             "attack": 0,
             "health": 1,
-            "banned": true
             "sigils": [
                 "Worthy Sacrifice"
             ],
@@ -29,7 +28,6 @@
             ],
             "attack": 0,
             "health": 1,
-            "banned": true
             "blood_cost": 1,
             "rare": true,
             "description": "Note: This card was changed to rare due to the amount of advantage given by this card."
@@ -53,7 +51,7 @@
             ],
             "attack": 0,
             "health": 2,
-            "blood_cost": 1
+            "blood_cost": 1,
         },
         {
             "name": "Energy Bot",
@@ -91,10 +89,10 @@
             ],
             "attack": 0,
             "health": 1,
+            "banned": true,
             "mox_cost": [
                 "Blue"
             ]
-            "banned": true
         },
         {
             "name": "Bleene's Mox",
