@@ -170,7 +170,7 @@
 
         {
             "name": "Flame Mage",
-            “pixport_url”: "https://raw.githubusercontent.com/FlareJ/Inscryption-Online-Rulesets/main/Inscryption%20Server%20Duel%20Images/Flame%20Mage.png",
+            “pixport_url”: "https://github.com/FlareJ/Inscryption-Online-Rulesets/blob/main/Inscryption%20Server%20Duel%20Images/Flame%20Mage.png",
             "sigils": [
                 "Leader"
             ],
@@ -184,7 +184,7 @@
         },
         {
             "name": "Flare Swordsman",
-            “pixport_url”: "https://raw.githubusercontent.com/FlareJ/Inscryption-Online-Rulesets/main/Inscryption%20Server%20Duel%20Images/Flare%20Swordsman.png",
+            “pixport_url”: "https://github.com/FlareJ/Inscryption-Online-Rulesets/blob/main/Inscryption%20Server%20Duel%20Images/Flare%20Swordsman.png",
             "attack": 1,
             "health": 3,
             "sigils": [
@@ -199,7 +199,7 @@
         },
         {
             "name": "Flare Spellsword",
-            “pixport_url”: "https://raw.githubusercontent.com/FlareJ/Inscryption-Online-Rulesets/main/Inscryption%20Server%20Duel%20Images/Flare%20Spellsword.png",
+            “pixport_url”: "https://github.com/FlareJ/Inscryption-Online-Rulesets/blob/main/Inscryption%20Server%20Duel%20Images/Flare%20Spellsword.png",
             "attack": 1,
             "health": 6,
             "sigils": [
@@ -236,7 +236,7 @@
         },
         {
             "name": "CryoRyo",
-            “pixport_url”: "https://raw.githubusercontent.com/FlareJ/Inscryption-Online-Rulesets/main/Inscryption%20Server%20Duel%20Images/Cryo.png",
+            “pixport_url”: "https://github.com/FlareJ/Inscryption-Online-Rulesets/blob/main/Inscryption%20Server%20Duel%20Images/Cryo.png",
             "sigils": [
                 "Frozen Away"
             ],
@@ -250,7 +250,7 @@
         },
         {
             "name": "Ryo",
-            “pixport_url”: "https://raw.githubusercontent.com/FlareJ/Inscryption-Online-Rulesets/main/Inscryption%20Server%20Duel%20Images/Cryo-Melt.png",
+            “pixport_url”: "https://github.com/FlareJ/Inscryption-Online-Rulesets/blob/main/Inscryption%20Server%20Duel%20Images/Cryo-Melt.png",
             "sigils": [
                 "Waterborne"
             ],
