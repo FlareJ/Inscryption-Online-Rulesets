@@ -182,7 +182,7 @@
             "health": 2,
             "mox_cost": [
                 "Orange"
-            ]
+            ],
             "energy_cost": 3
             "description": "Flare"
         },
@@ -209,11 +209,72 @@
             ],
             "mox_cost": [
                 "Orange",
-                //"Orange",
                 "Blue"
             ],
             "description": "Flare"
             "banned": true
+        },
+        {
+            "name": "Bishop",
+            "sigils": [
+                "Great Mox"
+            ],
+            "attack": 0,
+            "health": 3,
+            "mox_cost": [
+                "Green",
+                "Orange"
+            ],
+            "description": "BishopAdams"
+        },
+        {
+            "name": "Bishop's Hat",
+            "sigils": [
+                "Gem Dependent",
+            ],
+            "attack": 0,
+            "health": 2,
+            "description": "BishopAdams. Will gain Morsel once added."
+        },
+        {
+            "name": "CryoRyo",
+            "sigils": [
+                "Frozen Away"
+            ],
+            "attack": 1,
+            "health": 1,
+            "mox_cost": [
+                "Blue",
+                "Green"
+            ],
+            "description": "CryoRyo. Releases Ryo, a 3/1 with Waterbone."
+        },
+{
+            "name": "Ryo",
+            "sigils": [
+                "Waterborne"
+            ],
+            "attack": 3,
+            "health": 1,
+            "mox_cost": [
+                "Blue",
+                "Green"
+            ],
+            "banned": true
+            "description": "CryoRyo."
+        },
+{
+            "name": "Berry Bush",
+            "sigils": [
+                "Gem Dependent",
+                "Sharp Quills"
+            ],
+            "attack": 1,
+            "health": 2,
+            "mox_cost": [
+                "Orange"
+            ],
+            "description": "CryoRyo."
         },
         
         //START SIDE DECK CARDS
