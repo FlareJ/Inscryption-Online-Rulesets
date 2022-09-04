@@ -179,8 +179,8 @@
             "health": 2,
             "mox_cost": [
                 "Orange"
-            ]
-            "energy_cost": 3
+            ],
+            "energy_cost": 3,
             "description": "Flare"
         },
         {
@@ -207,9 +207,9 @@
             "mox_cost": [
                 "Orange",
                 "Blue"
-            ]
+            ],
+            "banned": true,
             "description": "Flare"
-            "banned": true
         },
         {
             "name": "Bishop",
@@ -221,14 +221,14 @@
             "mox_cost": [
                 "Green",
                 "Orange"
-            ]
+            ],
             "description": "BishopAdams"
         },
         {
             "name": "Bishop's Hat",
             "sigils": [
                 "Gem Dependent",
-            ]
+            ],
             "attack": 0,
             "health": 2,
             "description": "BishopAdams. Will gain Morsel once added."
@@ -243,7 +243,7 @@
             "mox_cost": [
                 "Blue",
                 "Green"
-            ]
+            ],
             "description": "CryoRyo. Releases Ryo, a 3/1 with Waterbone."
         },
         {
@@ -256,8 +256,8 @@
             "mox_cost": [
                 "Blue",
                 "Green"
-            ]
-            "banned": true
+            ],
+            "banned": true,
             "description": "CryoRyo."
         },
         {
@@ -270,7 +270,7 @@
             "health": 2,
             "mox_cost": [
                 "Orange"
-            ]
+            ],
             "description": "CryoRyo."
         },
         
