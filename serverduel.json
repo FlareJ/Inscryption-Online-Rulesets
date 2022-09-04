@@ -171,8 +171,6 @@
             "rare": true
         },
         
-        //START MEMBER CARDS
-        
         {
             "name": "Flame Mage",
             "sigils": [
@@ -276,8 +274,6 @@
             ],
             "description": "CryoRyo."
         },
-        
-        //START SIDE DECK CARDS
         
         {
             "name": "Withered Corpse",
