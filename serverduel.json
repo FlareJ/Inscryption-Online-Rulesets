@@ -1,0 +1,475 @@
+{
+    "ruleset": "IMF Competitive Ruleset v0.13",
+    "hammers_per_turn": 1,
+    "cards": [
+        {
+            "name": "Starvation",
+            "sigils": [
+                "Repulsive"
+            ],
+            "attack": 1,
+            "health": 1,
+            "banned": true
+        },
+        {
+            "name": "Black Goat",
+            "attack": 0,
+            "health": 1,
+            "banned": true
+            "sigils": [
+                "Worthy Sacrifice"
+            ],
+            "blood_cost": 1,
+            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
+        },
+        {
+            "name": "Cat",
+            "sigils": [
+                "Many Lives"
+            ],
+            "attack": 0,
+            "health": 1,
+            "banned": true
+            "blood_cost": 1,
+            "rare": true,
+            "description": "Note: This card was changed to rare due to the amount of advantage given by this card."
+        },
+        {
+            "name": "Undead Cat",
+            "attack": 3,
+            "health": 6,
+            "blood_cost": 1,
+            "banned": true
+        },
+        {
+            "name": "Energy Bot",
+            "sigils": [
+                "Battery Bearer"
+            ],
+            "attack": 0,
+            "health": 1,
+            "energy_cost": 2
+        },
+        {
+            "name": "Gravedigger",
+            "sigils": [
+                "Bone Digger"
+            ],
+            "attack": 0,
+            "health": 3,
+            "bone_cost": 1
+        },
+        {
+            "name": "Sporedigger",
+            "sigils": [
+                "Bone Digger",
+                "Bone Digger"
+            ],
+            "attack": 0,
+            "health": 3,
+            "bone_cost": 1,
+            "banned": true
+        },
+        {
+            "name": "Blue Mage",
+            "sigils": [
+                "Mental Gemnastics"
+            ],
+            "attack": 0,
+            "health": 1,
+            "mox_cost": [
+                "Blue"
+            ]
+            "banned": true
+        },
+        {
+            "name": "Bleene's Mox",
+            "sigils": [
+                "Blue Mox",
+                "Green Mox"
+            ],
+            "attack": 0,
+            "health": 2,
+            "rare": true,
+            "nosac": true
+        },
+        {
+            "name": "Goranj's Mox",
+            "sigils": [
+                "Green Mox",
+                "Orange Mox"
+            ],
+            "attack": 0,
+            "health": 2,
+            "rare": true,
+            "nosac": true
+        },
+        {
+            "name": "Orlu's Mox",
+            "sigils": [
+                "Orange Mox",
+                "Blue Mox"
+            ],
+            "attack": 0,
+            "health": 2,
+            "rare": true,
+            "nosac": true
+        },
+        {
+            "name": "Emerald Mox",
+            "sigils": [
+                "Green Mox"
+            ],
+            "attack": 0,
+            "health": 1,
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Ruby Mox",
+            "sigils": [
+                "Orange Mox"
+            ],
+            "attack": 0,
+            "health": 1,
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Sapphire Mox",
+            "sigils": [
+                "Blue Mox"
+            ],
+            "attack": 0,
+            "health": 1,
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Magnus Mox",
+            "sigils": [
+                "Great Mox"
+            ],
+            "attack": 0,
+            "health": 2,
+            "nosac": true,
+            "banned": true,
+            "rare": true
+        },
+        
+        //START MEMBER CARDS
+        
+        {
+            "name": "Flame Mage",
+            "sigils": [
+                "Leader"
+            ],
+            "attack": 1,
+            "health": 2,
+            "mox_cost": [
+                "Orange"
+            ]
+            "energy_cost": 3
+            "description": "Flare"
+        },
+        {
+            "name": "Flare Swordsman",
+            "attack": 1,
+            "health": 3,
+            "sigils": [
+                "Fledgling"
+            ],
+            "mox_cost": [
+                "Orange",
+                "Blue"
+            ],
+            "evolution": "Flare Spellsword",
+            "description": "Flare"
+        },
+        {
+            "name": "Flare Spellsword",
+            "attack": 1,
+            "health": 6,
+            "sigils": [
+                "Double Strike"
+            ],
+            "mox_cost": [
+                "Orange",
+                //"Orange",
+                "Blue"
+            ],
+            "description": "Flare"
+            "banned": true
+        },
+        
+        //START SIDE DECK CARDS
+        
+        {
+            "name": "Withered Corpse",
+            "sigils": [
+                "Brittle",
+                "Boneless"
+            ],
+            "attack": 1,
+            "health": 1,
+            "banned": true
+        },
+        {
+            "name": "Empty Vessel",
+            "attack": 0,
+            "health": 3,
+            "energy_cost": 1,
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Leaping Vessel",
+            "sigils": [
+                "Mighty Leap"
+            ],
+            "attack": 0,
+            "health": 2,
+            "energy_cost": 2,
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Energized Vessel",
+            "sigils": [
+                "Battery Bearer"
+            ],
+            "attack": 0,
+            "health": 2,
+            "energy_cost": 3,
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Bloody Vessel",
+            "sigils": [
+                "Noble Sacrifice"
+            ],
+            "attack": 0,
+            "health": 2,
+            "energy_cost": 4,
+            "banned": true,
+            "description": "Note: Energy cost increased due to opponent not having enough time to build a board before bloody vessel is usable."
+        },
+        {
+            "name": "Splintered Vessel",
+            "sigils": [
+                "Sharp Quills"
+            ],
+            "attack": 0,
+            "health": 2,
+            "energy_cost": 2,
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Conductive Vessel",
+            "attack": 0,
+            "health": 2,
+            "energy_cost": 2,
+            "nosac": true,
+            "conduit": true,
+            "banned": true
+        },
+        {
+            "name": "Contaminated Vessel",
+            "sigils": [
+                "Stinky"
+            ],
+            "attack": 0,
+            "health": 2,
+            "energy_cost": 2,
+            "nosac": true,
+            "banned": true
+        },
+        {
+            "name": "Geck",
+            "attack": 1,
+            "health": 1,
+            "rare": true,
+            "banned": true,
+            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
+        },
+        {
+            "name": "Acid Squirrel",
+            "attack": 0,
+            "health": 1,
+            "sigils": [
+                "Reconstitute"
+            ],
+            "banned": true,
+            "description": "Card and Reconstitute sigil art by Sebas534.\nThe most broken card, hopefully no longer."
+        },
+        {
+            "name": "Shambling Cairn",
+            "attack": 0,
+            "health": 1,
+            "bone_cost": -1,
+            "sigils": [
+                "Sprinter"
+            ],
+            "nohammer": true,
+            "banned": true,
+            "description": "Custom card by Garf, zpan0317, and Me!"
+        },
+        {
+            "name": "Moon Shard",
+            "sigils": [
+                "Mighty Leap",
+                "Made of Stone"
+            ],
+            "attack": 0,
+            "health": 5,
+            "energy_cost": 6,
+            "nosac": false,
+            "description": "Emits a pale white light. You feel as though it calls to its brethren.",
+            "banned": true
+        },
+        {
+            "name": "The Moon",
+            "attack": 1,
+            "health": 40,
+            "banned": true
+        }
+    ],
+    "sigil_urls": {
+        "Blood Lust": "https://ingoh.net/inscryption/textures/src/pixelability_gainattackonkill.png"
+    },
+    "sigils": {
+        "Airborne": "A card bearing this sigil will strike an opponent directly, even if there is a creature opposing it.",
+        "Ant Spawner": "When a card bearing this sigil is played, an ant is created in your hand.",
+        "Armored": "The first time a card bearing this sigil would take damage, prevent that damage.",
+        "Attack Conduit": "Other creatures within a circuit completed by a card bearing this sigil gain 1 power.",
+        "Battery Bearer": "When a card bearing this sigil is played, it provides an energy cell to its owner.",
+        "Bifurcated Strike": "A card bearing this sigil will strike each opposing space to the left and right of the space across from it.",
+        "Blood Lust": "When a card bearing this Sigil attacks an opposing creature and it perishes, this card gains 1 power.",
+        "Blue Mox": "While a card bearing this sigil is on the board, it provides a blue gem to its owner.",
+        "Bomb Spewer": "When a card bearing this sigil is played, fill all empty spaces with explode bots.",
+        "Bone Digger": "At the end of the owner's turn, a card bearing this sigil will generate 1 bone.",
+        "Bone King": "When a card bearing this sigil dies, 4 bones are awarded instead of 1.",
+        "Bonehorn": "Pay 1 energy to gain 1 bone.",
+        "Boneless": "When a card bearing this sigil dies, no bones are awarded.",
+        "Brittle": "After attacking, a card bearing this sigil perishes.",
+        "Burrower": "When an empty space would be struck, a card bearing this sigil will move to that space to receive the strike instead.",
+        "Detonator": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 10 damage.",
+        "Disentomb": "Pay 1 bone to create a withered corpse in your hand.",
+        "Double Death": "When another creature you own dies, it is returned to life and dies again immediately.",
+        "Double Strike": "A card bearing this Sigil will strike the opposing space an extra time when attacking.",
+        "Energy Conduit": "If a card bearing this sigil is part of a completed circuit, your maximum energy increases by 2.",
+        "Energy Gun": "Pay 1 energy to deal 1 damage to the creature across from a card bearing this sigil.",
+        "Enlarge": "Pay 2 bones to increase the power and health of a card bearing this sigil by 1.",
+        "Fecundity": "When a card bearing this sigil is played, a copy of it is created in your hand.",
+        "Fledgling": "A card bearing this sigil will grow into a more powerful form after 1 turn on the board.",
+        "Frozen Away": "When a card bearing this sigil perishes, the creature inside is released in its place.",
+        "Gem Animator": "Mox cards on the owner's side of the board gain 1 power.",
+        "Gem Dependant": "If a card bearing this sigil's owner controls no mox cards, a card bearing this sigil perishes.",
+        "Great Mox": "While a card bearing this sigil is on the board, it provides a green, orange, and blue gem to its owner.",
+        "Green Mox": "While a card bearing this sigil is on the board, it provides a green gem to its owner.",
+        "Guardian": "When an opposing creature is placed opposite to an empty space, a card bearing this sigil will move to that empty space.",
+        "Handy": "When a card bearing this sigil is played, discard your hand then draw a new hand of 4 cards.",
+        "Hefty": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil. creatures in the way will be pushed in the same direction.",
+        "Hoarder": "When a card bearing this sigil is played, you may search your deck for any card and take it into your hand.",
+        "Leader": "Creatures adjacent to a card bearing this sigil gain 1 Power.",
+        "Looter": "When a card bearing this sigil deals damage directly, draw a card for each damage dealt.",
+        "Made of Stone": "A card bearing this sigil is immune to the effects of touch of death and stinky.",
+        "Many Lives": "When a card bearing this sigil is sacrificed it does not perish.",
+        "Marrow Sucker": "Pay 2 bones to heal a card bearing this sigil.",
+        "Mental Gemnastics": "When a card bearing this sigil is played, you draw cards equal to the amount of mox cards on your side of the board.",
+        "Mighty Leap": "A card bearing this sigil will block an opposing creature bearing the airborne sigil.",
+        "Orange Mox": "While a card bearing this sigil is on the board, it provides an orange gem to its owner.",
+        "Power Dice": "Pay 2 energy to set the power of a card bearing this sigil randomly between 1 and 6.",
+        "Rabbit Hole": "When a card bearing this sigil is played, a Rabbit is created in your hand.",
+        "Reconstitute": "A card bearing this sigil returns to your hand 2 turns after it persihes.",
+        "Repulsive": "If a creature would attack a card bearing this sigil, it does not.",
+        "Ruby Heart": "When a card bearing this sigil perishes, a ruby mox is created in its place.",
+        "Noble Sacrifice": "A card bearing this sigil is counted as 2 blood rather than 1 blood when sacrificed.",
+        "Scopophobic": "A card bearing this sigil gains 1 power when not facing an enemy creature.",
+        "Sentry": "When a creature moves into the space opposing a card bearing this sigil, they are dealt 1 damage.",
+        "Sharp Quills": "Once a card bearing this sigil is struck, the striker is then dealt a single damage point.",
+        "Side Hustle": "When a card bearing this sigil deals damage directly, draw a card from your side deck for each damage dealt.",
+        "Skeleton Crew": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil and drop a skeleton in its old space.",
+        "Spawn Conduit": "Empty spaces within a circuit completed by a card bearing this sigil spawn L33pB0ts at the end of the owner's turn.",
+        "Sprinter": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil.",
+        "Squirrel Shedder": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil and drop a squirrel in their old space.",
+        "Stinky": "The creature opposing a card bearing this sigil loses 1 Power.",
+        "Stimulate": "Pay 4 energy to increase the power and health of a card bearing this sigil by 1.",
+        "Tentacle": "Includes effect of Waterborne. In addition, a card bearing this sigil will transform into a random tentacle at the start of each turn.",
+        "Touch of Death": "When a card bearing this sigil damages another creature, that creature perishes.",
+        "Trifurcated Strike": "A card bearing this sigil will strike each opposing space to the left, right, and center of it.",
+        "True Scholar": "If you have a blue gem, sacrifice a card bearing this sigil to draw 3 cards.",
+        "Unkillable": "When a card bearing this sigil perishes, a copy of it is created in your hand.",
+        "Waterborne": "A card bearing this sigil submerges itself during its opponent's turn. while submerged, opposing creatures attack its owner directly.",
+        "Worthy Sacrifice": "A card bearing this sigil is counted as 3 blood rather than 1 blood when sacrificed."
+    },
+    "working_sigils": [
+        "Airborne",
+        "Mighty Leap",
+        "Fecundity",
+        "Unkillable",
+        "Blue Mox",
+        "Green Mox",
+        "Orange Mox",
+        "Great Mox",
+        "Rabbit Hole",
+        "Touch of Death",
+        "Many Lives",
+        "Trifurcated Strike",
+        "Battery Bearer",
+        "Repulsive",
+        "Brittle",
+        "Worthy Sacrifice",
+        "Gem Dependant",
+        "Bone King",
+        "Bifurcated Strike",
+        "Handy",
+        "Fledgling",
+        "Sprinter",
+        "Squirrel Shedder",
+        "Skeleton Crew",
+        "Bone Digger",
+        "Waterborne",
+        "Ruby Heart",
+        "Frozen Away",
+        "Mental Gemnastics",
+        "Looter",
+        "Gem Animator",
+        "Hefty",
+        "Guardian",
+        "Sharp Quills",
+        "Sentry",
+        "Burrower",
+        "Hoarder",
+        "Detonator",
+        "Bomb Spewer",
+        "Double Death",
+        "Enlarge",
+        "Disentomb",
+        "Power Dice",
+        "Stimulate",
+        "Energy Gun",
+        "True Scholar",
+        "Bonehorn",
+        "Boneless",
+        "Attack Conduit",
+        "Spawn Conduit",
+        "Energy Conduit",
+        "Tentacle",
+        "Stinky",
+        "Reconstitute",
+        "Noble Sacrifice",
+        "Made of Stone",
+        "Side Hustle",
+        "Armored",
+        "Leader",
+        "Ant Spawner",
+        "Double Strike",
+        "Blood Lust"
+    ],
+    "side_decks": [
+        
+    ]
+}
